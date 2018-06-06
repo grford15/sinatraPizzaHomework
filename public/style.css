@@ -1,0 +1,31 @@
+body {
+  background-color: #A9A9A9;
+  background-size: auto;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  font-family: 'Fjalla One', sans-serif;
+
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+input[type=submit] {
+  background-color: #00008B;
+   border-color: white;
+   border-radius: 8px;
+   color: white;
+   padding: 16px 32px;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   font-family: 'Fjalla One', sans-serif;
+}

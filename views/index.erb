@@ -1,0 +1,9 @@
+<% for order in @orders %>
+  <p>Name: <%= order.pretty_name()%></p>
+  <p>Order: <%= order.quantity %> X <%= order.topping%> </p>
+  <p><a href="/pizza_orders/<%= order.id %>">Show Order</a></p>
+<% end %>
+
+<div class="buttons"><form method="get" action="/pizza_orders/new">
+  <input type="submit" value="New Order"/>
+</form></div>
